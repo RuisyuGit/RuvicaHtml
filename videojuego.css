@@ -1,0 +1,156 @@
+.videojuego-container1 {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center; /* centrado vertical/horizontal del contenido flex */
+}
+ 
+.videojuego-videojuego1 {
+  /* antes: width: 100%; */
+  width: 100%;
+  max-width: 1282px; /* fijo máximo para el "canvas" */
+  height: 828px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 1);
+  margin: 0 auto; /* centra horizontalmente en pantallas más anchas */
+  box-sizing: border-box;
+}
+ 
+.videojuego-videojuego2 {
+  top: -5px;
+  left: 0px; /* ajustar para que las posiciones absolutas internas se alineen al centro del padre */
+  width: 100%;
+  max-width: 1282px;
+  height: 833px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.videojuego-rectangle3201 {
+  top: 0px;
+  left: 0px;
+  width: 1280px;
+  height: 833px;
+  position: absolute;
+}
+ 
+.videojuego-rectangle3202 {
+  top: 5px;
+  left: 0px;
+  width: 1282px;
+  height: 90px;
+  position: absolute;
+}
+ 
+.videojuego-header {
+  top: 20px;
+  left: 38px;
+  width: 1208px;
+  height: 59px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.videojuego-text1 {
+  top: 11px;
+  left: 972px;
+  color: rgba(95, 31, 21, 1);
+  width: 236px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: Bold;
+  text-align: center;
+  font-family: FONTSPRING DEMO - TT Fors;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.videojuego-ruvicacolorpng1 {
+  top: 0px;
+  left: 62px;
+  width: 202px;
+  height: 59px;
+  position: absolute;
+}
+ 
+.videojuego-bxsuparrow {
+  top: 20px;
+  left: 1170px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+ 
+.videojuego-tablerhomefilled {
+  top: 10px;
+  left: 0px;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+}
+ 
+.videojuego-image8 {
+  top: 108px;
+  left: 9px;
+  width: 1256px;
+  height: 706px;
+  position: absolute;
+}
+ 
+.videojuego-image9 {
+  top: 387px;
+  left: 566px;
+  width: 148px;
+  height: 148px;
+  position: absolute;
+}
+ 
+.videojuego-link {
+  display: contents;
+}
+ 
+.videojuego-container2 {
+  right: 50px;
+  border: 1px solid #ffffff5c;
+  bottom: 30px;
+  display: flex;
+  z-index: 22;
+  position: fixed;
+  box-shadow: 5px 5px 10px 0px rgba(31, 31, 31, 0.4);
+  min-height: auto;
+  align-items: center;
+  padding-top: 8px;
+  padding-left: 12px;
+  border-radius: 8px;
+  padding-right: 12px;
+  padding-bottom: 8px;
+  backdrop-filter: blur(6px);
+  background-color: rgba(41, 41, 41, 0.41);
+}
+ 
+.videojuego-icon1 {
+  width: 24px;
+  margin-right: 4px;
+}
+ 
+.videojuego-text2 {
+  color: white;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}

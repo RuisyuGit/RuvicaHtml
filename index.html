@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="english">
+  <head>
+    <title>exported project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;  color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}pre {  white-space: normal;}input {  padding: 2px 4px;}img {  display: block;}details {  display: block;  margin: 0;  padding: 0;}summary::-webkit-details-marker {  display: none;}[data-thq="accordion"] [data-thq="accordion-content"] {  max-height: 0;  overflow: hidden;  transition: max-height 0.3s ease-in-out;  padding: 0;}[data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {  max-height: 1000vh;}details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {  transform: rotate(180deg);}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background: var(--dl-color-theme-neutral-light);
+
+        fill: var(--dl-color-theme-neutral-dark);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="./indexstyle.css" />
+    <div>
+      <link href="./index.css" rel="stylesheet" />
+
+      <div class="main-container1">
+        <div class="main-main">
+          <div class="main-group1">
+            <div class="main-fondos">
+              <img
+                src="assetsindex/rectangle124-884v-4200h.png"
+                alt="Rectangle124"
+                class="main-rectangle1"
+              />
+              <img
+                src="assetsindex/rectangle3212009-98uy.svg"
+                alt="Rectangle3212009"
+                class="main-rectangle321"
+              />
+              <img
+                src="assetsindex/rectangle30873-vyv.svg"
+                alt="Rectangle30873"
+                class="main-rectangle308"
+              />
+              <img
+                src="assetsindex/rectangle3222009-io07.svg"
+                alt="Rectangle3222009"
+                class="main-rectangle322"
+              />
+              <img
+                src="assetsindex/rectangle3232009-mr5l.svg"
+                alt="Rectangle3232009"
+                class="main-rectangle323"
+              />
+              <img
+                src="assetsindex/rectangle3242022-btc.svg"
+                alt="Rectangle3242022"
+                class="main-rectangle324"
+              />
+              <img
+                src="assetsindex/rectangle3252024-75pi.svg"
+                alt="Rectangle3252024"
+                class="main-rectangle325"
+              />
+              <img
+                src="assetsindex/rectangle272-8ucg-200h.png"
+                alt="Rectangle272"
+                class="main-rectangle2"
+              />
+              <img
+                src="assetsindex/rectangle31194-h0b-600h.png"
+                alt="Rectangle31194"
+                class="main-rectangle311"
+              />
+              <img
+                src="assetsindex/rectangle3262024-oyon-500h.png"
+                alt="Rectangle3262024"
+                class="main-rectangle326"
+              />
+              <img
+                src="assetsindex/rectangle313912-ulei-600h.png"
+                alt="Rectangle313912"
+                class="main-rectangle313"
+              />
+              <img
+                src="assetsindex/rectangle3161240-4cll-600h.png"
+                alt="Rectangle3161240"
+                class="main-rectangle316"
+              />
+              <img
+                src="assetsindex/rectangle3181252-cx84-600h.png"
+                alt="Rectangle3181252"
+                class="main-rectangle318"
+              />
+              <img
+                src="assetsindex/rectangle3191362-ewd-600h.png"
+                alt="Rectangle3191362"
+                class="main-rectangle319"
+              />
+              <img
+                src="assetsindex/rectangle3202013-9ct9-500h.png"
+                alt="Rectangle3202013"
+                class="main-rectangle320"
+              />
+            </div>
+            <div class="main-rutavirtual">
+              <img
+                src="assetsindex/rutadelcacao145-i42i-400h.png"
+                alt="rutadelcacao145"
+                class="main-rutadelcacao1"
+              />
+              <img
+                src="assetsindex/vector2715-h7u.svg"
+                alt="Vector2715"
+                class="main-vector2"
+              />
+              <span class="main-text10">RUTA VIRTUAL DEL CACAO:</span>
+              <img
+                src="assetsindex/divider710-sc7h.svg"
+                alt="Divider710"
+                class="main-divider1"
+              />
+              <span class="main-text11">
+                LABORATORIO CIUDADANO COMO ESTRATEGIA PARA LA PROMOCIÓN Y
+                EDUCACIÓN DEL TURISMO SOSTENIBLE EN EL SECTOR CACAOTERO.
+              </span>
+            </div>
+            <div class="main-oculus">
+              <img
+                src="assetsindex/divider734-1nfy.svg"
+                alt="Divider734"
+                class="main-divider2"
+              />
+              <img
+                src="assetsindex/rectangle31295-5n1p-200h.png"
+                alt="Rectangle31295"
+                class="main-rectangle3121"
+              />
+              <img
+                src="assetsindex/vector496-rhf.svg"
+                alt="Vector496"
+                class="main-vector41"
+              />
+              <span class="main-text12">Entrar a la ruta virtual</span>
+              <span class="main-text13">
+                Un espacio en realidad virtual donde a través de un recorrido
+                podrás conocer el proceso de sembrado, recolección,
+                procesamiento y envió del cacao, además de toda la información
+                complementaria de este proceso con hermosos paisajes y tomas
+                panorámicas.
+              </span>
+              <span class="main-text14">
+                Explora la ruta mediante realidad virtual
+              </span>
+              <img
+                src="assetsindex/image4910-ckuc-400h.png"
+                alt="image4910"
+                class="main-image4"
+              />
+            </div>
+            <div class="main-videojuego">
+              <img
+                src="assetsindex/divider1231-6etj.svg"
+                alt="Divider1231"
+                class="main-divider3"
+              />
+              <a href="videojuego.html" class="main-link-button">
+                <img
+                  src="assetsindex/rectangle3121232-nlh-200h.png"
+                  alt="Rectangle3121232"
+                  class="main-rectangle3122"
+                />
+                <span class="main-text17">Probar videojuego</span>
+              </a>
+
+              <img
+                src="assetsindex/vector41233-8a2k.svg"
+                alt="Vector41233"
+                class="main-vector42"
+              />
+              <span class="main-text15">
+                Diviértete experimentando un videojuego temático de la
+                recolección del cacao.
+              </span>
+              <span class="main-text16">Videojuego educativo</span>
+              <span class="main-text17">Probar videojuego</span>
+              <img
+                src="assetsindex/image1237-j0i-500w.png"
+                alt="image1237"
+                class="main-image1"
+              />
+            </div>
+            <div class="main-suministros">
+              <img
+                src="assetsindex/divider1354-rvhb.svg"
+                alt="Divider1354"
+                class="main-divider4"
+              />
+              <a href="cadena.html" class="main-link-button">
+              <img
+                src="assetsindex/rectangle3121355-cl76-200h.png"
+                alt="Rectangle3121355"
+                class="main-rectangle3123"
+              />
+              <span class="main-text20">Explora la cadena de suministros</span>
+              </a>
+              <img
+                src="assetsindex/vector41356-y0c.svg"
+                alt="Vector41356"
+                class="main-vector43"
+              />
+              <span class="main-text18">
+                Podras observar de manera descriptiva videos, información y
+                gráficos acerca de como se lleva el cacao hasta los puntos de
+                procesado, una vez procesado como se comercializa hasta los
+                puntos de venta.
+              </span>
+              <span class="main-text19">Cadena de suministros</span>
+              <span class="main-text20">Explora la cadena de suministros</span>
+              <img
+                src="assetsindex/image1360-y44b-400h.png"
+                alt="image1360"
+                class="main-image2"
+              />
+            </div>
+            <div class="main-historias">
+              <img
+                src="assetsindex/vector5915-z53.svg"
+                alt="Vector5915"
+                class="main-vector51"
+              />
+              <img
+                src="assetsindex/divider913-ba0m.svg"
+                alt="Divider913"
+                class="main-divider5"
+              />
+              <a href="artsteps.html" class="main-link">
+              <img
+                src="assetsindex/rectangle314914-8ios-200h.png"
+                alt="Rectangle314914"
+                class="main-rectangle3141"
+              />
+              <span class="main-text23">Entrar a la galeria virtual</span>
+              </a>
+              <span class="main-text21">
+                Una galería Virtual interactiva donde conocerás historias de los
+                campesinos trabajadores de la ruta del cacao, Mediante
+                fotografías y videos veras como es su dia a dia y todo el
+                proceso de cultivo desde la perspectiva de una de estas
+                personas.
+              </span>
+              <span class="main-text22">Historias de vida</span>
+              <img
+                src="assetsindex/image919-0q5r-500w.png"
+                alt="image919"
+                class="main-image3"
+              />
+            </div>
+            <div class="main-transformacion">
+              <img
+                src="assetsindex/vector51244-yrvn.svg"
+                alt="Vector51244"
+                class="main-vector52"
+              />
+              <img
+                src="assetsindex/divider1245-earh.svg"
+                alt="Divider1245"
+                class="main-divider6"
+              />
+              <a href="transformacion.html" class="main-link-button">
+              <img
+                src="assetsindex/rectangle3141246-j8e-200h.png"
+                alt="Rectangle3141246"
+                class="main-rectangle3142"
+              />
+              <span class="main-text26">Descubrir el proceso</span>
+              </a>
+              <span class="main-text24">
+                Descubre todo lo relacionado con el proceso de transformación
+                del cacao, maquinaria, procesos de cocción y empaquetado. Todo
+                lo que necesitas saber sobre como el cacao es convertido en los
+                diversos productos.
+              </span>
+              <span class="main-text25">Transformación</span>
+              <img
+                src="assetsindex/image1250-eesn-500w.png"
+                alt="image1250"
+                class="main-image5"
+              />
+            </div>
+            <div class="main-ciencia">
+              <img
+                src="assetsindex/vector51364-xdg.svg"
+                alt="Vector51364"
+                class="main-vector53"
+              />
+              <img
+                src="assetsindex/divider1365-2t9d.svg"
+                alt="Divider1365"
+                class="main-divider7"
+              />
+              <a href="quimica.html" class="main-link-button">
+              <img
+                src="assetsindex/rectangle3141366-21d8-200h.png"
+                alt="Rectangle3141366"
+                class="main-rectangle3143"
+              />
+              <span class="main-text29">Estudia la ciencia</span>
+              </a>
+              <span class="main-text27">
+                El apartado de ciencia incluye papers, investigaciones y
+                experiencias propias de las personas entrevistadas, todo esto
+                con el fin de despejar las dudas mas técnicas acerca de todos
+                los apartados logísticos.
+              </span>
+              <span class="main-text28">Ciencia</span>
+              <span class="main-text29">Estudia la ciencia</span>
+              <img
+                src="assetsindex/image1370-aqn-500w.png"
+                alt="image1370"
+                class="main-image6"
+              />
+            </div>
+            <div class="main-header">
+              <span class="main-text30">Módulos</span>
+              <img
+                src="assetsindex/ruvicacolorpng12005-ivr-200h.png"
+                alt="ruvicacolorpng12005"
+                class="main-ruvicacolorpng1"
+              />
+              <img
+                src="assetsindex/bxsuparrow2005-mvn8.svg"
+                alt="bxsuparrow2005"
+                class="main-bxsuparrow"
+              />
+              <img
+                src="assetsindex/tablerhomefilled2005-4qd.svg"
+                alt="tablerhomefilled2005"
+                class="main-tablerhomefilled"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

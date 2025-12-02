@@ -1,0 +1,368 @@
+.cadena-container1 {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.cadena-cadena {
+  /* constrain the main canvas and center it */
+  width: 100%;
+  max-width: 1280px; /* same width used by .cadena-fondos */
+  height: 1857px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+ 
+.cadena-fondos {
+  top: 0px;
+  left: 0px;
+  /* make fondos fill the container width so it stays centered */
+  width: 100%;
+  max-width: 1280px;
+  height: 1857px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(255, 255, 255, 1);
+  left: 50%;
+  transform: translateX(-50%);
+}
+ 
+.cadena-rectangle328 {
+  top: 670px;
+  left: 0px;
+  width: 685px;
+  height: 603px;
+  position: absolute;
+}
+ 
+.cadena-rectangle329 {
+  top: 1295px;
+  left: 595px;
+  width: 685px;
+  height: 529px;
+  position: absolute;
+}
+ 
+.cadena-rectangle2 {
+  top: 0px;
+  left: 0px;
+  width: 1280px;
+  height: 90px;
+  position: absolute;
+}
+ 
+.cadena-rectangle327 {
+  top: 130px;
+  left: auto;
+  right: 0px;
+  width: 880px;
+  height: 518px;
+  position: absolute;
+  /* si hay transform que lo desplace, eliminar o ajustar */
+  transform: none;
+}
+ 
+.cadena-rectangle311 {
+  top: 161px;
+  left: 0px;
+  width: 1098px;
+  height: 471px;
+  position: absolute;
+}
+ 
+.cadena-rectangle313 {
+  top: 699px;
+  left: 182px;
+  width: 1098px;
+  height: 548px;
+  position: absolute;
+}
+ 
+.cadena-rectangle316 {
+  top: 1322px;
+  left: 0px;
+  width: 1098px;
+  height: 478px;
+  position: absolute;
+}
+ 
+.cadena-oculus {
+  top: 202px;
+  left: 64px;
+  width: 1144px;
+  height: 380px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.cadena-divider1 {
+  top: 200.5015869140625px;
+  left: 0px;
+  width: 636px;
+  height: 1px;
+  position: absolute;
+}
+ 
+.cadena-text1 {
+  top: 226px;
+  left: 0.00048828125px;
+  color: rgba(79, 82, 85, 1);
+  width: 636px;
+  height: auto;
+  position: absolute;
+  font-size: 17px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Source Code Pro;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.cadena-text2 {
+  top: 95px;
+  left: 0.00048828125px;
+  color: rgba(23, 24, 31, 1);
+  width: 555px;
+  height: auto;
+  position: absolute;
+  font-size: 43.11954116821289px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Source Code Pro;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.cadena-image {
+  top: 0px;
+  left: 713px;
+  width: 431px;
+  height: 380px;
+  position: absolute;
+}
+ 
+.cadena-videojuego {
+  top: 1381px;
+  left: 78px;
+  width: 584px;
+  height: 346px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.cadena-divider2 {
+  top: 132.50146484375px;
+  left: -4.547473508864641e-13px;
+  width: 584px;
+  height: 1px;
+  position: absolute;
+}
+ 
+.cadena-text3 {
+  top: 158px;
+  color: rgba(79, 82, 85, 1);
+  width: 584px;
+  height: auto;
+  position: absolute;
+  font-size: 17px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Source Code Pro;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.cadena-text4 {
+  left: 0.00048828125px;
+  color: rgba(23, 24, 31, 1);
+  width: 555px;
+  height: auto;
+  position: absolute;
+  font-size: 43.11954116821289px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Source Code Pro;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.cadena-historias {
+  top: 848px;
+  left: 581px;
+  width: 636.00048828125px;
+  height: 230px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.cadena-divider3 {
+  top: 80.5015869140625px;
+  left: 0px;
+  width: 636px;
+  height: 1px;
+  position: absolute;
+}
+ 
+.cadena-text5 {
+  top: 106px;
+  left: 0.00048828125px;
+  color: rgba(79, 82, 85, 1);
+  width: 636px;
+  height: auto;
+  position: absolute;
+  font-size: 17px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Source Code Pro;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.cadena-text6 {
+  left: 54px;
+  color: rgba(23, 24, 31, 1);
+  width: 555px;
+  height: auto;
+  position: absolute;
+  font-size: 43.11954116821289px;
+  font-style: SemiBold;
+  text-align: right;
+  font-family: Source Code Pro;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.cadena-image10 {
+  top: 818px;
+  left: 33px;
+  width: 506px;
+  height: 295px;
+  position: absolute;
+}
+ 
+.cadena-header {
+  top: 20px;
+  left: 38px;
+  width: calc(100% - 76px);
+  max-width: 1208px;
+  height: 59px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  left: 50%;
+  transform: translateX(-50%);
+}
+ 
+.cadena-text7 {
+  top: 11px;
+  left: 972px;
+  color: rgba(95, 31, 21, 1);
+  width: 236px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: Bold;
+  text-align: center;
+  font-family: FONTSPRING DEMO - TT Fors;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.cadena-ruvicacolorpng1 {
+  top: 0px;
+  left: 62px;
+  width: 202px;
+  height: 59px;
+  position: absolute;
+}
+ 
+.cadena-bxsuparrow {
+  top: 20px;
+  left: 1160px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+ 
+.cadena-tablerhomefilled {
+  top: 10px;
+  left: 0px;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+}
+ 
+.cadena-image12 {
+  top: 1408px;
+  left: 685px;
+  width: 566px;
+  height: 319px;
+  position: absolute;
+}
+ 
+.cadena-link {
+  display: contents;
+}
+ 
+.cadena-container2 {
+  right: 50px;
+  border: 1px solid #ffffff5c;
+  bottom: 30px;
+  display: flex;
+  z-index: 22;
+  position: fixed;
+  box-shadow: 5px 5px 10px 0px rgba(31, 31, 31, 0.4);
+  min-height: auto;
+  align-items: center;
+  padding-top: 8px;
+  padding-left: 12px;
+  border-radius: 8px;
+  padding-right: 12px;
+  padding-bottom: 8px;
+  backdrop-filter: blur(6px);
+  background-color: rgba(41, 41, 41, 0.41);
+}
+ 
+.cadena-icon1 {
+  width: 24px;
+  margin-right: 4px;
+}
+ 
+.cadena-text8 {
+  color: white;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
